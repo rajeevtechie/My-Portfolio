@@ -107,6 +107,7 @@ h1 {
     justify-content: space-around;
     align-items: center;
     width: 100%;
+    margin-bottom: 150px;
 }
 
 .secondsection .leftsecond {
@@ -123,13 +124,13 @@ h1 {
 }
 
 .secondsection .leftsecond img {
-    border-radius: 80%;
+    border-radius: 10%;
     /* margin-top: 20px; */
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    width: 70%;
-    height: 30%;
+    width: 100%;
+    height: 200%;
 }
 
 h2 {
