@@ -1,0 +1,37 @@
+.maincontacts{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.maincontacts .icons{
+    width: 50%;
+}
+
+.maincontacts .contactpic{
+    width: 50%;
+    margin: 1rem 2rem;
+    margin-bottom: 3rem;
+    box-shadow: 10px 10px 10px 10px rgb(86, 57, 57);
+    
+}
+.sixthsection .contacts h3{
+    display: flex;
+    justify-content: center;
+}
+
+.sixthsection .contacts span{
+    color: red;
+    font-size: 1.7rem;
+}
+.sixthsection .contacts h4 span{
+    color: rgb(103, 66, 66);
+    font-size: 100%;
+}
+
+.sixthsection .contacts .icons {
+    margin-left: 2rem;
+    font-size: 2rem;
+    line-height: 5rem;
+}
+

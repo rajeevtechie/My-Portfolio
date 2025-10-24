@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+body {
+    background-color: rgb(165, 244, 244);
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 48px;
+    background-color: rgb(37, 3, 68);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 20px;
+}
+
+.left {
+    font-size: 2rem;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 10px;
+    align-items: center;
+}
+
+
+.firstsection div {
+    width: 40%;
+}
+
+/* .leftsection{
+    background-color: red;
+} */
+
+.firstsection .leftsection {
+    font-size: 3rem;
+    margin: 3.5rem;
+    color: black;
+}
+
+.text-blue {
+    color: blue;
+}
+
+.rightsection img {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+    border-radius: 50%;
+    box-shadow: 8px 8px 8px 8px rgb(112, 109, 114);
+}
+
+div ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+div ul li a:hover {
+    font-size: 1.15rem;
+    color: wheat;
+}
+
+#element {
+    color: rgb(28, 7, 220);
+
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 80px;
+    margin-bottom: 10px;
+    color: black;
+    font-size: 2.5rem;
+}
+
+.secondsection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.secondsection .leftsecond {
+    width: 40%;
+    height: 80%;
+}
+
+.secondsection .rightsecond {
+    height: 50%;
+    width: 50%;
+    font-size: 1.5rem;
+    color: black;
+
+}
+
+.secondsection .leftsecond img {
+    border-radius: 80%;
+    /* margin-top: 20px; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 70%;
+    height: 30%;
+}
+
+h2 {
+    size: 2rem;
+    color: rgb(65, 5, 107);
+}
+
+i {
+    color: black;
+    size: 10rem;
+}
+
+.thirdsection {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+.thirdsection div ul li {
+    color: rgb(60, 45, 74);
+    font-size: 1.3rem;
+    line-height: 4.7rem;
+    list-style: none;
+}
+
+/* .fourthsection{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+} */
+
+.fourthsection p {
+    margin-left: 1.8rem;
+    font-size: 1.35rem;
+    color: rgb(8, 8, 19);
+}
+
+.fourthsection h2 {
+    margin: 1.02rem;
+}
+
+.fourthsection h3 {
+    margin-left: 1.04rem;
+    color: rgb(118, 88, 169);
+}
+
+.fourthsection ul li {
+    list-style: disc;
+    margin: 10px;
+    color: rgb(67, 51, 21);
+    line-height: 1.5rem;
+    font-size: 1.1rem;
+    margin-left: 40px;
+}
+
+.fifthsection .firstproject {
+    display: flex;
+    height: 40%;
+}
+
+.fifthsection .firstproject h2 {
+    color: rgb(29, 106, 153);
+    font-size: 1.3rem;
+    margin-top: 15px;
+}
+
+.fifthsection .firstproject h4 {
+    color: rgb(103, 13, 13);
+    font-size: 1.02rem;
+    line-height: 1.5rem;
+}
+
+.fifthsection .firstproject .description {
+    width: 40%;
+    height: 40%;
+    margin-top: 10px;
+}
+
+.fifthsection .firstproject .projectpic {
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    height: 40%;
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px 5px rgba(64, 62, 64, 0.7);
+    margin: 1.5rem 6.5rem;
+}
+
+.fifthsection .secondproject {
+    display: flex;
+    height: 40%;
+
+}
+
+.fifthsection .secondproject h2 {
+    color: rgb(29, 106, 153);
+    font-size: 1.3rem;
+}
+
+.fifthsection .secondproject h4 {
+    color: rgb(103, 13, 13);
+    font-size: 1.02rem;
+    line-height: 1.5rem;
+}
+
+.fifthsection .secondproject .seconddescription {
+    width: 40%;
+    height: 40%;
+    margin-top: 5px;
+}
+
+.fifthsection .secondproject .secondprojectpic {
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    height: 40%;
+    margin: 1.1rem 6.5rem;
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px 5px rgba(64, 62, 64, 0.7);
+
+}
+
+.maincontacts {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.maincontacts .icons {
+    width: 50%;
+}
+
+.maincontacts .contactpic {
+    width: 50%;
+    margin: 1rem 2rem;
+    margin-bottom: 3rem;
+    box-shadow: 10px 10px 10px 10px rgb(86, 57, 57);
+
+}
+
+.sixthsection .contacts h3 {
+    display: flex;
+    justify-content: center;
+}
+
+.sixthsection .contacts span {
+    color: red;
+    font-size: 1.7rem;
+}
+
+.sixthsection .contacts h4 span {
+    color: rgb(103, 66, 66);
+    font-size: 100%;
+}
+
+.sixthsection .contacts .icons {
+    margin-left: 2rem;
+    font-size: 2rem;
+    line-height: 5rem;
+}
